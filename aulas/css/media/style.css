@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media (min-width: 700px) {
+    body {
+        background-color: rgb(168, 216, 200);
+        text-align: end;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        background-color: rgb(94, 126, 74);
+        text-align: center;
+    }
+}
