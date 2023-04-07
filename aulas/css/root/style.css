@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:root {
+    --bgMain : rgb(218, 245, 253);
+    --mainTitleFont : Helvetica,sans-serif,Arial;
+}
+
+body {
+    background-color: var(--bgMain);
+}
+
+h1 {
+    font-family: var(--mainTitleFont);
+}
