@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/*Parte Geral / Variaveis*/
+
+* {
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+}
+
+:root {
+    --bgPage: url(../imgs/fundo.png);
+    --h2Font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    --pFont: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: var(--bgPage);
+    width: 75%;
+}
+
+/*Titulo Principal e Menu*/
+
+h1 {
+    display: none;
+}
+
+#pageTitle img{
+    width: 100%;
+}
+
+.navMenu {
+    background-color: rgb(143, 160, 128);
+    height: 50px;
+
+}
+
+.navMenu a {
+    color: rgb(38, 87, 52);
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.navMenu a:hover {
+    text-decoration: underline;
+    color: rgb(51, 114, 69);
+}
+
+/*Area Principal */
+
+.mainArea {
+    background-color: rgb(232, 241, 208);
+    padding: 8px;
+}
+
+.mainArea h2 {
+    color:rgb(101, 124, 88);
+    font-family: var(--h2Font);
+}
+
+.mainArea p {
+    font-size: 16px;
+    font-family: var(--pFont);
+}
+
+/*Imagens Publicitárias*/
+
+.imgCampanha {
+    border: 5px solid rgb(101, 124, 88);
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
