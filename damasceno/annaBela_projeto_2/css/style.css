@@ -30,8 +30,7 @@ h1 {
 
 .navMenu {
     background-color: rgb(143, 160, 128);
-    height: 50px;
-
+    padding: 10px;
 }
 
 .navMenu a {
