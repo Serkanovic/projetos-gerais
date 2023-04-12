@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* parte geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontePdr: Arial, Helvetica, sans-serif;
+    --mainColor: rgb(255, 182, 45);
+}
+
+body {
+    background-color: #eee;
+}
+
+/*nav e menu */
+
+.headerArea {
+    background: var(--mainColor);
+    height: 150px;
+}
+
+h1{
+   text-align: center;
+   padding-top: 35px;
+}
+
+h1 {
+    font-size: 44px;
+    color: white;
+    font-family: var(--fontePdr)
+}
+
+.spanTitle {
+    color: rgb(27, 26, 26);
+}
+
+.navMenu {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.navMenu a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 14px;
+}
+
+.navMenu a:hover {
+    background-color: white;
+    color: var(--mainColor);
+}
+
+/* post/recent/category */
+
+.mainPage {
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px;
+    position: relative;
+}
+
+.postArea, .recentArea, .categoryArea {
+    background-color: white;
+    margin: 10px;
+}
+
+.postArea { 
+    width: 70%;
+    padding: 20px;
+}
+
+h2 {
+    color: var(--mainColor);
+    font-size: 28px;
+}
+
+.postData {
+    font-size: 12px;
+}
+
+hr, .imgPost, .postArea p {
+    width: 100%;
+}
+
+.imgPost {
+    padding: 10px 0px;
+}
+
+.postArea p {
+    font-family: var(--fontePdr);
+    padding-bottom: 10px;
+}
+
+.postArea a {
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.postArea a:hover {
+    text-decoration: underline;
+}
+
+.recentArea {
+    width: 20%;
+    float: right;
+    position: absolute;
+    left: 750px;
+}
+
+.categoryArea {
+    width: 22%;
+    float: right;
+    position: absolute;
+    left: 750px;
+    bottom: 10px;
+}
