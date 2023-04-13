@@ -17,6 +17,10 @@ body {
     background-color: #eee;
 }
 
+hr {
+    border: 1px dashed rgb(241, 241, 241);
+}
+
 /*nav e menu */
 
 .headerArea {
@@ -66,6 +70,33 @@ h1 {
     position: relative;
 }
 
+.recentArea, .categoryArea {
+    padding: 12px;
+    font-family: var(--fontePdr);
+    font-size: 14px;
+}
+
+.recentArea h3, .categoryArea h3 {
+    background: #ddd;
+    color: rgb(48, 48, 48);
+    padding: 5px;
+}
+
+.recentArea p, .categoryArea p {
+    padding: 5px;
+}
+
+.recentArea a, .categoryArea a {
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.recentArea a:hover, .categoryArea a:hover {
+    text-decoration: underline;
+    color: var(--mainColor);
+}
+
+
 .postArea, .recentArea, .categoryArea {
     background-color: white;
     margin: 10px;
@@ -74,6 +105,7 @@ h1 {
 .postArea { 
     width: 70%;
     padding: 20px;
+    float: left;
 }
 
 h2 {
@@ -108,16 +140,32 @@ hr, .imgPost, .postArea p {
 }
 
 .recentArea {
-    width: 20%;
+    width: 25%;
     float: right;
-    position: absolute;
-    left: 750px;
+    position: relative;
+    bottom: 650px
 }
 
 .categoryArea {
-    width: 22%;
+    width: 25%;
     float: right;
-    position: absolute;
-    left: 750px;
-    bottom: 10px;
+    position: relative;
+    bottom: 650px
 }
+
+.categoryArea a {
+    display: block;
+    padding: 5px;
+}
+
+/*footer*/
+
+footer {
+    clear: both;
+    background-color: #ddd;
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    padding: 15px;
+}
+
