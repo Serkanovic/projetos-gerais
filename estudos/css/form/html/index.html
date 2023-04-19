@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <form action="tratar.php">
+
+        <fieldset>
+             <legend>Detalhes de contato</legend>
+
+             <div>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+             </div>
+
+             <div>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email">
+             </div>
+
+             <div>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+             </div>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Comentários</legend>
+            <div>
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Lembrar</legend>
+
+            <div>
+                <label>
+                    <input class="radio" type="radio" name="lembrar" id="sim"> Sim
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input class="radio" type="radio" name="lembrar" id="nao"> Não
+                </label>
+            </div>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
