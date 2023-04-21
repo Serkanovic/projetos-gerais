@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/*general parts - body*/
+
+:root {
+    --mainFont: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--mainFont);
+    align-items: center;
+    text-align: center;
+}
+
+/*general parts - body - END*/
+
+/*header area*/
+
+#main-title {
+    position: relative;
+    left: 20000px;
+}
+
+.brazil-map-detail {
+    position: relative;
+    float: right;
+    right: 150px;
+    bottom: 40px;
+}
+
+#main-header {
+    background: rgb(55, 55, 117) url(../imgs/fundo.png) repeat-x;
+    height: 233px;
+}
+
+.nav-header {
+    background: darkred;
+    display: inline-block;
+    padding: 18px 12px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.nav-header a {
+    background: darkred;
+    color: white;
+    padding: 18px 12px;
+}
+
+.nav-header a:hover {
+    color: black;
+}
+
+.nav-header a.ativo {
+    background-color: rgb(185, 10, 10);
+    border-radius: 8px;
+}
+
+/*header area - END*/
+
+/*news area*/
+
+/*news area - END*/
