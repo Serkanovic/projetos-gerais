@@ -68,4 +68,75 @@ body {
 
 /*news area*/
 
+#news-area {
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 75%;
+    height: 800px;
+}
+
 /*news area - END*/
+
+/*first/second area*/
+
+.first-area, .second-area {
+    height: 90%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    overflow-y: hidden;
+}
+
+.first-area {
+    width: 25%;
+    float: left;
+}
+
+.second-area {
+    float: right;
+    width: 70%;
+}
+
+
+/*first/second area - END*/
+
+/*interview/news area*/
+
+.interview-area, .news-area {
+    border: 1px solid black;
+}
+
+.interview-area {
+    height: 50%;
+}
+
+.news-area {
+    height: 20%;
+}
+
+/*interview/news area - END*/
+
+/*highlight/last interview/world/recent area*/
+
+.interview-area, .news-area {
+    border: 1px solid black;
+}
+
+/*highlight/last interview/world/recent area - END*/
+
+.highlight-area, .last-interview-area, .world-area, .recent-area {
+    border: 1px solid black;
+    height: 50%;
+    width: 40%;
+    display: inline-block;
+}
+
+/*footer area*/
+
+footer {
+    border: 1px solid black;
+    height: 40px;
+    padding-top: 15px;
+}
+
+/*footer area - END*/
