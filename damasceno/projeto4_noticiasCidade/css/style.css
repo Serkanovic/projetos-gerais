@@ -20,6 +20,15 @@ body {
     text-align: center;
 }
 
+h2 {
+    font-size: 16px;
+    color: white;
+    background: rgb(55, 55, 117);
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
 /*general parts - body - END*/
 
 /*header area*/
@@ -103,11 +112,32 @@ body {
 /*interview/news area*/
 
 .interview-area, .news-area {
-    border: 1px solid black;
+    background: #eee url(../imgs/fundo-caixa.png);
+    width: 80%;
+    text-align: left;
 }
 
 .interview-area {
-    height: 50%;
+    height: 45%;
+}
+
+.interview-area a {
+    background: white;
+    display: block;
+}
+
+.interview-link {
+    color: black;
+    margin: 2px;
+    padding: 6px;
+    font-size: 15px;
+    border-bottom: 1px solid #bbb;
+}
+
+.interview-link:hover {
+    padding-left: 25px;
+    background:  #eee url(../imgs/marcador.png) no-repeat left center;
+    color: #bbb;
 }
 
 .news-area {
@@ -118,18 +148,14 @@ body {
 
 /*highlight/last interview/world/recent area*/
 
-.interview-area, .news-area {
-    border: 1px solid black;
-}
-
-/*highlight/last interview/world/recent area - END*/
-
 .highlight-area, .last-interview-area, .world-area, .recent-area {
     border: 1px solid black;
     height: 50%;
     width: 40%;
     display: inline-block;
 }
+
+/*highlight/last interview/world/recent area - END*/
 
 /*footer area*/
 
