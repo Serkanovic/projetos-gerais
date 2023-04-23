@@ -25,9 +25,10 @@ h2 {
     color: white;
     background: rgb(55, 55, 117);
     padding: 5px;
-    margin: 5px;
+    margin: 2px;
     text-align: left;
 }
+
 
 /*general parts - body - END*/
 
@@ -78,10 +79,8 @@ h2 {
 /*news area*/
 
 #news-area {
-    border: 1px solid black;
     margin: 10px auto;
-    width: 75%;
-    height: 800px;
+    width: 80%;
 }
 
 /*news area - END*/
@@ -167,12 +166,55 @@ h2 {
 /*highlight/last interview/world/recent area*/
 
 .highlight-area, .last-interview-area, .world-area, .recent-area {
-    border: 1px solid black;
-    height: 45%;
+    background: #aaa url(../imgs/fundo-caixa.png);
+    height: 44%;
+    padding: 5px;
     width: 40%;
     margin: 8px;
     display: inline-block;
 }
+
+.news-div {
+    background: white;
+    padding: 4px;
+}
+
+.highlight-area, .last-interview-area {
+    text-align: left;
+}
+
+.about-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+    background: darkred;
+    margin: 2px;
+    width: 50%;
+    color: white;
+}
+
+.news-img {
+    border: 3px solid #aaa;
+    text-align: left;
+    width: 100%;
+}
+
+.read-link {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.read-link:hover {
+    text-decoration: underline;
+    color: rgb(189, 0, 0);
+}
+
+
+.third-level-img {
+    width: 35%;
+    float: left;
+}
+
 
 /*highlight/last interview/world/recent area - END*/
 
