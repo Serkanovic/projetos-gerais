@@ -90,7 +90,6 @@ h2 {
 
 .first-area, .second-area {
     height: 90%;
-    border: 1px solid black;
     padding: 10px;
     margin: 10px;
     overflow-y: hidden;
@@ -115,10 +114,11 @@ h2 {
     background: #eee url(../imgs/fundo-caixa.png);
     width: 80%;
     text-align: left;
+    float: right;
 }
 
 .interview-area {
-    height: 45%;
+    height: 43%;
 }
 
 .interview-area a {
@@ -141,7 +141,25 @@ h2 {
 }
 
 .news-area {
-    height: 20%;
+    height: 16%;
+    padding: 2px;
+    margin-top: 8px;
+}
+
+.news-area form {
+    background: white;
+}
+
+.news-area input {
+    width: 80%;
+}
+
+.news-area .submit-class {
+    width: 50%;
+    background: darkred;
+    margin: 2px;
+    color: white;
+    cursor: pointer;
 }
 
 /*interview/news area - END*/
@@ -150,8 +168,9 @@ h2 {
 
 .highlight-area, .last-interview-area, .world-area, .recent-area {
     border: 1px solid black;
-    height: 50%;
+    height: 45%;
     width: 40%;
+    margin: 8px;
     display: inline-block;
 }
 
