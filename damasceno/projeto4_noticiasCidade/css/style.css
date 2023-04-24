@@ -4,6 +4,7 @@
 
 :root {
     --mainFont: Arial, Helvetica, sans-serif;
+    --blueColor: rgb(41, 76, 113);
 }
 
 * {
@@ -23,14 +24,14 @@ body {
 h2 {
     font-size: 16px;
     color: white;
-    background: rgb(55, 55, 117);
+    background: var(--blueColor);
     padding: 5px;
     margin: 2px;
     text-align: left;
 }
 
 h3 {
-    color: rgb(55, 55, 117);
+    color: var(--blueColor);
     text-transform: uppercase;
     font-size: 12px;
     margin: 2px;
@@ -55,7 +56,7 @@ h3 {
 }
 
 #main-header {
-    background: rgb(55, 55, 117) url(../imgs/fundo.png) repeat-x;
+    background: var(--blueColor) url(../imgs/fundo.png) repeat-x;
     height: 233px;
 }
 
@@ -245,9 +246,11 @@ h3 {
 /*footer area*/
 
 footer {
-    border: 1px solid #ccc solid black;
     height: 40px;
     padding-top: 15px;
+    padding-left: 110px;
+    background: var(--blueColor);
+    color: white;
+    text-align: left;
 }
-
 /*footer area - END*/
