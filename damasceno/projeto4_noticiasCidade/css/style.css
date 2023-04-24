@@ -29,6 +29,14 @@ h2 {
     text-align: left;
 }
 
+h3 {
+    color: rgb(55, 55, 117);
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 2px;
+    text-align: left;
+}
+
 
 /*general parts - body - END*/
 
@@ -130,7 +138,7 @@ h2 {
     margin: 2px;
     padding: 6px;
     font-size: 15px;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #ccc solid #bbb;
 }
 
 .interview-link:hover {
@@ -209,9 +217,25 @@ h2 {
     color: rgb(189, 0, 0);
 }
 
+.third-level-area {
+    background: white;
+    border-bottom: 2px solid #ccc;
+}
+
+.third-level-area:hover {
+    background: #ddd;
+}
+
+.third-level-area p {
+    color: black;
+    text-align: left;
+    font-size: 12px;
+}
+
 
 .third-level-img {
-    width: 35%;
+    width: 30%;
+    margin: 5px;
     float: left;
 }
 
@@ -221,7 +245,7 @@ h2 {
 /*footer area*/
 
 footer {
-    border: 1px solid black;
+    border: 1px solid #ccc solid black;
     height: 40px;
     padding-top: 15px;
 }
