@@ -254,3 +254,23 @@ footer {
     text-align: left;
 }
 /*footer area - END*/
+
+/* news post - id */
+
+#news-post-id {
+    width: 70%;
+    background: url(../imgs/fundo-caixa.png);
+    padding: 15px;
+}
+
+.second-level-area {
+    background: white;
+    padding: 6px;
+}
+
+.second-level-area p {
+    line-height: 1.5em;
+    text-align: left;
+}
+
+/* news post - id - END*/
