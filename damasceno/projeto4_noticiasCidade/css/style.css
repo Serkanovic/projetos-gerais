@@ -257,7 +257,7 @@ footer {
 
 /* news post - id */
 
-#news-post-id {
+#news-post-id, #photos-post-id {
     width: 70%;
     background: url(../imgs/fundo-caixa.png);
     padding: 15px;
@@ -274,3 +274,13 @@ footer {
 }
 
 /* news post - id - END*/
+
+/*photos post/ recent -id */
+
+#photos-post-id, #recent-photos-id {
+    width: 60%;
+}
+
+
+
+/*photos post/recent id - END */
