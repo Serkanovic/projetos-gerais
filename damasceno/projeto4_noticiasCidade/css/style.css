@@ -275,12 +275,20 @@ footer {
 
 /* news post - id - END*/
 
-/*photos post/ recent -id */
+/*photos post/recent/brazil -id */
 
-#photos-post-id, #recent-photos-id {
+#photos-post-id, #recent-photos-id{
     width: 60%;
 }
 
+#brazil-area-id {
+    width: 100%;
+}
 
+#brazil-area-id .about-title  {
+    display: inline;
+    padding: 2px;
+    margin: 2px;
+}
 
 /*photos post/recent id - END */
