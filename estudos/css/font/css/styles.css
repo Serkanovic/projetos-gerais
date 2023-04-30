@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Ancient Medium";
+    src: url(../fontes/Ancient-Medium.woff);
+}
+
+h1 {
+    font-family: "Ancient Medium";
+    font-size: 42px;
+}
