@@ -1,0 +1,13 @@
+@charset "UTF8";
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background-color: darkred;
+}
+
+#caixa:hover {
+    width: 400px;
+    background-color: darkgreen;
+    transition: all 2s;
+}
