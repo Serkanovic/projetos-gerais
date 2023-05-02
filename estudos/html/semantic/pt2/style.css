@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+header{
+    border: 1px solid lightgray;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+nav {
+    border: 1px solid green;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+footer {
+    background: lightgray;
+}
+
+article {
+    background: lightseagreen;
+}
+
+#aside {
+    background: lightblue;
+}
