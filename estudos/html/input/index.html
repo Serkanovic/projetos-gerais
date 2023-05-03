@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="tratar.php">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required autofocus>
+        <br><br>
+        <label for="numero">numero</label>
+        <input type="number" name="numeri" id="numero" min="2" max="10">
+        <br><br>
+        <label for="url">url</label>
+        <input type="url" name="url" id="url" placeholder="ex: http://www...">
+        <br><br>
+        <label for="pesquisa">pesquisa</label>
+        <input type="search" name="pesquisa" id="pesquisa">
+        <br><br>
+        <label for="range">range</label>
+        <input type="range" name="range" id="range">
+        <br><br>
+        <label for="data">data</label>
+        <input type="date" name="data" id="data">
+        <br><br>
+        <label for="cor">cor</label>
+        <input type="color" name="cor" id="cor">
+        <input type="submit" value="enviar" name="enviar">
+    </form>
+</body>
+</html>
