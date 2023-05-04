@@ -2,11 +2,8 @@
 
 #conteudo {
     background: #dcdcdc;
-    height: 400px;
+    height: 600px;
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .item {
@@ -15,4 +12,17 @@
     background: white;
     border: 1px solid gray;
     margin: 10px;
+    flex-grow: 0;
+}
+
+.item1 {
+    height: 100px;
+    background: white;
+    border: 1px solid gray;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.ordem {
+    order: -1;
 }
