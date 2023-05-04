@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#conteudo {
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 1px solid gray;
+    margin: 10px;
+}
