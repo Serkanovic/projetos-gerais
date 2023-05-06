@@ -8,6 +8,81 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    
+    <header id="main-header">
+        <div class="main-title">
+            <h1 class="page-title">MUSEU</h1>
+        </div>
+        <nav class="main-nav">
+            <a href="#" class="main-nav-anchor">home</a>
+            <a href="#" class="main-nav-anchor">exposições</a>
+            <a href="#" class="main-nav-anchor">pesquisa</a>
+            <a href="#" class="main-nav-anchor">acervo</a>
+            <a href="#" class="main-nav-anchor">vídeos</a>
+            <a href="#" class="main-nav-anchor">fotos</a>
+            <a href="#" class="main-nav-anchor">contato</a>
+        </nav>
+    </header> 
+    <div class="central-area">
+        <section id="main-section">
+            <img src="../imgs/museu.png" alt="Imagem do museu" class="section-img">
+            <article class="main-article">
+                <h2 class="second-title">vídeo: conheça o museu</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </article>
+            <article class="main-article">
+                <h2 class="second-title">mapa: encontre o museu</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.226529!3d-22.905760000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sus!4v1683382403882!5m2!1spt-BR!2sus" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article class="main-article">
+                <h2 class="second-title">exposições</h2>
+                <ul class="article-list">
+                    <li><a href="#" class="second-anchor">Os assustadores insetos</a></li>
+                    <li><a href="#" class="second-anchor">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                    <li><a href="#" class="second-anchor">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                    <li><a href="#" class="second-anchor">Plantas do Brasil Central</a></li>
+                    <li><a href="#" class="second-anchor">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                    <li><a href="#" class="second-anchor">Arte Com Dinossauros - Paleoarte</a></li>
+                    <li><a href="#" class="second-anchor-all">Veja todos (65)</a></li>
+                </ul>
+            </article>
+            <article class="main-article">
+                <h2 class="second-title">200 anos de História</h2>
+                <p>Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+                </p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+        <aside id="main-aside">
+            <img src="../imgs/depoimento.png" alt="" class="aside-img">
+            <div class="visit-area">
+                <h2 class="second-title">Faça uma visita</h2>
+                <form action="tratar.php" method="post">
+                    <label for="data">Data</label>
+                    <input type="date" name="data" id="data">
+                    <label for="quantidade">Qtd. pessoas</label>
+                    <input type="number" name="quantidade" id="quantidade" value="1" min="1" max="99">
+                    <input type="submit" value="Verificar disponibilidade">
+                </form>
+            </div>
+            <div class="galery-area">
+                <h2 class="second-title">galeria de fotos</h2>
+                
+                <img src="../imgs/imagem1.jpg" alt="Imagem da galeria" class="galery-img">
+                <img src="../imgs/imagem2.jpg" alt="Imagem da galeria" class="galery-img">
+                <img src="../imgs/imagem3.jpg" alt="Imagem da galeria" class="galery-img">
+                <img src="../imgs/imagem4.jpg" alt="Imagem da galeria" class="galery-img">
+            </div>
+        </aside>
+        <footer id="main-footer">
+            <a href="#" class="footer-anchor">home</a>
+            <a href="#" class="footer-anchor">exposições</a>
+            <a href="#" class="footer-anchor">pesquisa</a>
+            <a href="#" class="footer-anchor">acervo</a>
+            <a href="#" class="footer-anchor">vídeos</a>
+            <a href="#" class="footer-anchor">fotos</a>
+            <a href="#" class="footer-anchor">contato</a>
+            <p>2023 <a href="#" class="footer-anchor">Museu Nacional</a> - Todos os direitos reservados.</p>
+        </footer>
+    </div>
 </body>
 </html>
