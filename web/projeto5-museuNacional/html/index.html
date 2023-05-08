@@ -17,7 +17,7 @@
             <div id="logo">
                 <h1><a href="#">Museu Nacional</a></h1>
             </div>
-            
+
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -31,6 +31,53 @@
                 </ul>
             </nav>
         </header>
+
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="../imgs/museu.png" alt="">
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="../imgs/depoimento.png" alt="">
+                </section>
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="tratar.php">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="number" id="qtd" value="1" min="1" max="99">
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="#">
+                        <img src="../imgs/imagem1.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                    <a href="#">
+                        <img src="../imgs/imagem2.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                    <a href="#">
+                        <img src="../imgs/imagem3.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                    <a href="#">
+                        <img src="../imgs/imagem4.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                </section>
+            </aside>
+        </div>
         
     </div>
 </body>
