@@ -13,14 +13,14 @@
   <body>
 
     <h2>Alertas</h2>
-    <div>
+    <div class="alert alert-primary">
       <strong>Primary</strong> você tem uma postagem pendente!
     </div>
 
 
     <h2>Alerta com botão fechar</h2>
-    <div>
-      <button type="button">
+    <div class="alert alert-success alert-dismissible">
+      <button class="close" type="button" data-dismiss="alert">
         &times;
       </button>
       <strong>Fechar</strong> Alerta com botão fechar
@@ -29,7 +29,7 @@
     
 
     <h2>Alerta com mais conteúdos</h2>
-    <div>
+    <div class="alert alert-dark">
       
       <h4>Título</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a metus in purus malesuada vulputate. Sed lacinia quam massa, eu consectetur tortor faucibus sed.</p>
@@ -41,22 +41,39 @@
 
 
     <h2>Barra de progresso</h2>
-    <div>
-      <div></div>
+    <div class="progress">
+      <div class="progress-bar w-75">75%</div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar w-75 bg-dark">75%</div>
     </div>
     <br>
 
     <h2>Altura</h2>
-    
+    <div class="progress" style="height: 2px;">
+      <div class="progress-bar w-75 bg-dark"></div>
+    </div>
+    <br>
 
     <h2>Listrado</h2>
-    
+    <div class="progress">
+      <div class="progress-bar w-75 bg-primary progress-bar-striped">75%</div>
+    </div>
+    <br>
 
     <h2>Animado</h2>
-    
+    <div class="progress">
+      <div class="progress-bar w-75 bg-primary progress-bar-striped progress-bar-animated">75%</div>
+    </div>
+    <br>
 
     <h2>Múltiplas barras</h2>
-
+    <div class="progress">
+      <div class="progress-bar w-75 bg-primary progress-bar-striped">75%</div>
+      <div class="progress-bar w-75 bg-primary progress-bar-striped">75%</div>
+    </div>
+    <br>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
